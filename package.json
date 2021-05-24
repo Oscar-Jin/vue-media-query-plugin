@@ -4,10 +4,17 @@
   "description": "MediaQuery Plugin for Vue 2",
   "main": "dist/vue-media-query-plugin.js",
   "module": "dist/vue-media-query-plugin.esm.js",
+  "keywords": [
+    "vue",
+    "mediaquery",
+    "media-query",
+    "matchmedia"
+  ],
   "scripts": {
     "build": "rollup --config"
   },
   "author": "Oscar Jin <kintininn@gmail.com>",
+  "repository": "Oscar-Jin/vue-media-query-plugin",
   "license": "ISC",
   "devDependencies": {
     "rollup": "^2.49.0",
