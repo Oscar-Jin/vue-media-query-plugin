@@ -8,7 +8,7 @@ const MediaQueryPlugin = {
           this.$_mqp = private_scope
           Vue.util.defineReactive(this.$_mqp, 'resize', this.$_mqp.resize)
         },
-        ...framework[brand].mixin
+        computed: framework[brand].mixin.computed
       })
       framework[brand].addEventListeners(private_scope)
     } else {
@@ -20,7 +20,6 @@ const MediaQueryPlugin = {
 const private_scope = {
   resize: 1
 }
-
 
 export default MediaQueryPlugin
 
