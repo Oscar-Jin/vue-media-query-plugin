@@ -1,0 +1,16 @@
+{
+  "name": "vue-media-query-plugin",
+  "version": "1.0.0",
+  "description": "MediaQuery Plugin for Vue 2",
+  "main": "dist/vue-media-query-plugin.js",
+  "module": "dist/vue-media-query-plugin.esm.js",
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "author": "Oscar Jin <kintininn@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.49.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
