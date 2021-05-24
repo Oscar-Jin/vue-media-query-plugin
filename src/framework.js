@@ -2,19 +2,19 @@ export default {
   tailwindcss: {
     mixin: {
       computed: {
-        isMinWidthSm() {
+        isMinSm() {
           return this.$_mqp.resize && matchMedia('(min-width: 640px)').matches
         },
-        isMinWidthMd() {
+        isMinMd() {
           return this.$_mqp.resize && matchMedia('(min-width: 768px)').matches
         },
-        isMinWidthLg() {
+        isMinLg() {
           return this.$_mqp.resize && matchMedia('(min-width: 1024px)').matches
         },
-        isMinWidthXl() {
+        isMinXl() {
           return this.$_mqp.resize && matchMedia('(min-width: 1280px)').matches
         },
-        isMinWidth2xl() {
+        isMin2xl() {
           return this.$_mqp.resize && matchMedia('(min-width: 1536px)').matches
         }
       }
