@@ -1,3 +1,5 @@
+<img alt="Vue Media Query Plugin" width="200" src="https://github.com/Oscar-Jin/vue-media-query-plugin/blob/main/asset/vue-media-query-plugin-icon.png?raw=true">
+
 # vue-media-query-plugin
 
 Vue.js v 2+ plugin for using MediaQueryList based queries.
@@ -7,7 +9,7 @@ creation of this package.
 
 ## Before You Jump the Gun
 
-Remember, this package is intended for testing only. It is not suited for production. Please use at your own risk.
+Remember, this package is intended for test use only. It is not suited for production. Please use at your own risk.
 
 ## Basic Usage
 
@@ -33,6 +35,10 @@ Vue.use(MediaQueryPlugin, 'tailwindcss'); // currently only supports Tailwind CS
 ## API Reference
 
 ### Tailwind CSS
+
+<a href="https://tailwindcss.com/" target="_blank">
+    <img alt="Tailwind CSS" width="100" src="https://refactoringui.nyc3.cdn.digitaloceanspaces.com/tailwind-logo.svg">
+</a>
 
 #### isMinSm
 
